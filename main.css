@@ -1,5 +1,5 @@
 body {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
 body>div {
@@ -84,6 +84,9 @@ section {
     width: 50%;
     margin: auto;
     position: absolute;
+    top: -40px;
+    left: 300px;
+ 
     
 }
 span{
@@ -139,11 +142,11 @@ span{
 }
 .designation {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
 }
 .desg-details {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
 }
 .button {
     display: flex;
