@@ -70,5 +70,89 @@ header {
 
 section {
     width: 100%;
+    background-color:#EAEAEA;
+    position: relative;
+}
+.searchcont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffff;
+    height: 50px;
+    width: 50%;
+    margin: auto;
+    position: absolute;
     
+}
+span{
+    font-size: 16px;
+}
+.selectopt {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.searchbutton > button {
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid red;
+    outline: none;
+    color: #ffff;
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    border-radius: 5px;
+}
+.card-container {
+    width: 80%;
+    margin: 50px auto 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    width: 42%;
+    padding: 15px;
+    background: #ffff;
+    border-radius: 10px;
+    margin: 15px;
+}
+.img-cont {
+    display: flex;
+    align-items: center;
+}
+.img-div {
+    width: 150px;
+    height: 150px;
+    background: #C4C4C4;
+    border-radius: 16px;
+    margin-right: 10px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.designation {
+    font-weight: 500;
+    font-size: 24px;
+}
+.desg-details {
+    font-weight: 500;
+    font-size: 14px;
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+.button > button {
+    border: 1px solid red;
+    color: red;
+    height: 40px;
+    width: 120px;
+    border-radius: 3px;
 }
